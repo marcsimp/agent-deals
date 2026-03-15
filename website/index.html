@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent Deals — Free Tiers, Credits & Coupons for AI Agent Developers</title>
+<meta name="description" content="The definitive directory of 229+ deals, free tiers, and startup programs for AI agent developers. Updated March 2026.">
+<meta property="og:title" content="Agent Deals — Free Tiers & Coupons for AI Agents">
+<meta property="og:description" content="229+ deals across 26 categories for AI agent infrastructure. JSON API + llms.txt for agent consumption.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sticky Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo" aria-label="Agent Deals home">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="2" width="28" height="28" rx="6" stroke="currentColor" stroke-width="2"/>
+          <circle cx="11" cy="13" r="2.5" fill="var(--color-accent)"/>
+          <circle cx="21" cy="13" r="2.5" fill="var(--color-accent)"/>
+          <path d="M10 21c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round"/>
+          <line x1="16" y1="2" x2="16" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="16" cy="1" r="1" fill="var(--color-accent)"/>
+        </svg>
+        <span class="logo-text">agent<span class="logo-accent">deals</span></span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <span class="deal-count" id="deal-count-badge">229 deals</span>
+        <a href="#categories" class="nav-link">Browse</a>
+        <a href="https://github.com/agent-deals/agent-deals" class="nav-link" target="_blank" rel="noopener">GitHub</a>
+        <a href="/deals.json" class="nav-link nav-api">API</a>
+        <a href="/llms.txt" class="nav-link nav-api">llms.txt</a>
+        <button data-theme-toggle aria-label="Toggle dark mode" class="theme-toggle">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">Updated March 2026 · 229+ deals · 26 categories</div>
+      <h1 class="hero-title">Every deal your <span class="hero-accent">AI agent</span> needs</h1>
+      <p class="hero-sub">Free tiers, startup credits, and coupon codes for the entire agent stack — from LLM APIs to browser automation, vector databases to MCP servers. Built for agents, by agent developers.</p>
+      <div class="search-container" id="search-container">
+        <div class="search-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input type="text" id="search-input" placeholder="Search 229 deals..." autocomplete="off" spellcheck="false">
+          <kbd class="search-kbd">⌘K</kbd>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" id="stat-free">168</span>
+          <span class="stat-label">Free Tiers</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" id="stat-oss">47</span>
+          <span class="stat-label">Open Source</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" id="stat-startup">12</span>
+          <span class="stat-label">Startup Programs</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" id="stat-cats">26</span>
+          <span class="stat-label">Categories</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+  </section>
+
+  <!-- Agent Consumption Banner -->
+  <section class="agent-banner">
+    <div class="agent-banner-inner">
+      <div class="agent-banner-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+      </div>
+      <div class="agent-banner-text">
+        <strong>Built for agent consumption.</strong>
+        Access all deals programmatically via <code>/deals.json</code> or <code>/llms.txt</code> — designed for LLMs and autonomous agents to read and act on directly.
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter Bar -->
+  <section class="filter-section" id="categories">
+    <div class="filter-inner">
+      <div class="filter-row">
+        <div class="type-filters" id="type-filters">
+          <button class="type-pill active" data-type="all">All <span class="pill-count">229</span></button>
+          <button class="type-pill" data-type="free-tier">Free Tier <span class="pill-count">168</span></button>
+          <button class="type-pill" data-type="open-source">Open Source <span class="pill-count">47</span></button>
+          <button class="type-pill" data-type="startup-credits">Startup Credits <span class="pill-count">12</span></button>
+          <button class="type-pill" data-type="discount">Discounts <span class="pill-count">2</span></button>
+        </div>
+      </div>
+      <div class="category-pills" id="category-pills">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Deals Grid -->
+  <main class="deals-main" id="deals-main">
+    <div class="deals-container" id="deals-container">
+      <!-- Populated by JS -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="2" width="28" height="28" rx="6" stroke="currentColor" stroke-width="2"/>
+            <circle cx="11" cy="13" r="2.5" fill="var(--color-accent)"/>
+            <circle cx="21" cy="13" r="2.5" fill="var(--color-accent)"/>
+            <path d="M10 21c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span>agent<span class="logo-accent">deals</span></span>
+        </div>
+        <div class="footer-links">
+          <a href="/deals.json">JSON API</a>
+          <a href="/llms.txt">llms.txt</a>
+          <a href="https://github.com/agent-deals/agent-deals" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/agent-deals/agent-deals/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contribute</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>229 deals across 26 categories for AI agent developers. Data updated March 2026.</p>
+        <p class="footer-attr">
+          <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
