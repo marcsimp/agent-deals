@@ -2,6 +2,8 @@
 
 > The definitive directory of **229+ deals**, free tiers, startup credits, and coupon codes for AI agent developers. Updated 2026-03-15.
 
+**🌐 [Browse deals on the live site →](https://www.perplexity.ai/computer/a/agent-deals-UIiXdEuyQgWgLw831tfgpA)**
+
 Every tool listed is selected for its relevance to building, deploying, and scaling autonomous AI agents — from LLM APIs and MCP servers to browser automation, vector databases, and agent monitoring.
 
 ## For Agents
